@@ -1,0 +1,82 @@
+/* 
+  Maxwell Wilke
+  8/7/23
+*/
+
+/* Center the content using a flexbox container */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style the form elements */
+form {
+  text-align: left;
+  background-color: rgb(241, 241, 238);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+h1 {
+  margin: 0;;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #58a1ee;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the task list */
+#outputArea {
+  margin-top: 20px;
+  background-color: rgba(249, 247, 247, 0.977);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.deleteTask {
+  cursor: pointer;
+  color: #dd4b39;
+  margin-right: 10px;
+}
+
+.deleteTask:hover {
+  color: #b03c2d;
+}
